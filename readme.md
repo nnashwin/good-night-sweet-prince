@@ -1,1 +1,2 @@
-# good night sweet prince \n ## a cli tool that really knows how to put you to bed
+# good night sweet prince 
+> it really knows how to put you to bed
