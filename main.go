@@ -1,7 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"io/ioutil"
+)
 
 func main() {
-	fmt.Println("Princing it up!")
+	b, err := ioutil.ReadFile("prince-ascii.txt")
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	str := string(b)
+
+	fmt.Println(str)
 }
